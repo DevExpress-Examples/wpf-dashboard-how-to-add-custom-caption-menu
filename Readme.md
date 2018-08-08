@@ -2,7 +2,7 @@
 
 This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
 
-![](~/images/wpf-dashboard-how-to-add-custom-caption-menu.png.png)
+![](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-add-custom-caption-menu/blob/18.1.6%2B/images/wpf-dashboard-how-to-add-custom-caption-menu.png)
 
 The following properties are used:
 - [DashboardControl.ItemGroupStyle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.ItemGroupStyle) to specify a style for dashboard groups (a group is the [DashboardLayoutGroup](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardLayoutGroup) type);
