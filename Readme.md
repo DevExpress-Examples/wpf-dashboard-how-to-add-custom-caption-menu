@@ -1,4 +1,4 @@
-# How to add custom menu elements to dashboard item captions
+# How to add custom buttons and menu elements to dashboard item captions
 
 This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
 
