@@ -8,7 +8,7 @@
     xmlns:dxdasht="http://schemas.devexpress.com/winfx/2008/xaml/dashboard/themekeys"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    dx:ThemeManager.ThemeName="Office2016"
+    dx:ThemeManager.ThemeName="VS2017Light"
     Width="800"
     Height="450"
     mc:Ignorable="d"
@@ -23,7 +23,7 @@
             <dxdash:DashboardControl.TitleCustomizationsTemplate>
                 <DataTemplate>
                     <ItemsControl>
-                        <dxb:InsertAction ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_Toolbar}">
+                        <dxb:InsertAction Index="0" ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_Toolbar}">
                             <dxb:InsertAction.Element>
                                 <dxb:BarSubItem AllowGlyphTheming="True" Content="My Title Dropdown">
                                     <dxb:BarButtonItem Content="Item1" />

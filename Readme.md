@@ -14,4 +14,4 @@ In a dashboard item's custom style, the [DashboardLayoutItem.CaptionCustomizatio
 
 In a group item's custom style, set the  [DashboardGroupItem.CaptionCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.CaptionCustomizationsTemplate) and  [DashboardGroupItem.ContextMenuCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.ContextMenuCustomizationsTemplate) properties, respectively.
 
-The data template specified in a custom style implements the [InsertBarAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.InsertBarAction) to add a button or a drop-down menu.
+The data template in a custom style uses the [InsertAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.InsertAction) class to insert a button or a drop-down menu. The **InsertAction.Index** property specifies a position to insert.
