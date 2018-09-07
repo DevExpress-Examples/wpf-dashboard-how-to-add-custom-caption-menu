@@ -16,7 +16,15 @@
 
     <Grid>
         <dxdash:DashboardControl
-            x:Name="dashboardControl1">
+            x:Name="dashboardControl1"
+            TitleAlignment="Center"
+            TitleContent="Title Content"
+            TitleVisibility="Visible">
+            <dxdash:DashboardControl.TitleContentTemplate>
+                <DataTemplate>
+                    <ToggleButton Content="{Binding}" />
+                </DataTemplate>
+            </dxdash:DashboardControl.TitleContentTemplate>
             <dxdash:DashboardControl.TitleCustomizationsTemplate>
                 <DataTemplate>
                     <ItemsControl>

@@ -2,10 +2,15 @@
 
 This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
 
+
 ![](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-add-custom-caption-menu/blob/18.1.6%2B/images/wpf-dashboard-how-to-add-custom-caption-menu.png)
 
 The following properties are used:
-- [DashboardControl.TitleCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.TitleCustomizationsTemplate) to specify a data template to display a dashboard title;
+- [DashboardControl.TitleContent](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContent) to specify a title text;
+- [DashboardControl.TitleContentTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContentTemplate) to specify a data template to display a dashboard title, except command buttons;
+- [DashboardControl.TitleCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.TitleCustomizationsTemplate) to specify a data template to add, delete or modify the dashboard title command buttons;
+- [DashboardControl.TitleAlignment](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleAlignment) to specify the title content alignment, except command buttons;
+- [DashboardControl.TitleVisibility](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleVisibility) to show or hide the title;
 - [DashboardControl.ItemGroupStyle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.ItemGroupStyle) to specify a style for dashboard groups (a group is the [DashboardLayoutGroup](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardLayoutGroup) type);
 - [DashboardControl.DashBoardItemStyle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.DashBoardItemStyle) to specify a style for a dashboard item of any type;
 - [DashboardControl.GridItemStyle](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControlBase.GridItemStyle) to specify a style for the [GridDashboardLayoutItem](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.GridDashboardLayoutItem) type.

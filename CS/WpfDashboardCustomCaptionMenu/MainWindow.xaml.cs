@@ -19,7 +19,6 @@ namespace WpfDashboardCustomCaptionMenu
                 new GridDashboardItem() { Group = group }, 
                 new ChartDashboardItem() { Group = group }, 
                 new TreemapDashboardItem());
-            dashboardControl1.Dashboard = dashboard;
-        }
+            dashboardControl1.Dashboard = dashboard;        }
     }
 }
