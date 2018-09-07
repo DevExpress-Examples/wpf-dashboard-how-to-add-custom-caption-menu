@@ -3,7 +3,7 @@
 This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
 
 
-![](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-add-custom-caption-menu/blob/18.1.6%2B/images/wpf-dashboard-how-to-add-custom-caption-menu.png)
+![](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-add-custom-caption-menu/blob/18.1.7%2B/images/wpf-dashboard-how-to-add-custom-caption-menu.png)
 
 The following properties are used:
 - [DashboardControl.TitleContent](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContent) to specify a title text;
