@@ -1,25 +1,16 @@
-<Window
-    x:Class="WpfDashboardCustomCaptionMenu.MainWindow"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
-    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
-    xmlns:dxdash="http://schemas.devexpress.com/winfx/2008/xaml/dashboard"
-    xmlns:dxdasht="http://schemas.devexpress.com/winfx/2008/xaml/dashboard/themekeys"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Width="800"
-    Height="450"
-    mc:Ignorable="d"
-    dx:ThemeManager.ThemeName="LightGray"
-    Title="MainWindow">
+<dx:ThemedWindow x:Class="WpfDashboardCustomCaptionMenu.MainWindow" Width="800" Height="450" mc:Ignorable="d" dx:ThemeManager.ThemeName="LightGray" 
+                 Title="Custom Caption Toolbar and Context Menu" 
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+    xmlns:dxdash="http://schemas.devexpress.com/winfx/2008/xaml/dashboard" 
+    xmlns:dxdasht="http://schemas.devexpress.com/winfx/2008/xaml/dashboard/themekeys" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
 
     <Grid>
-        <dxdash:DashboardControl
-            x:Name="dashboardControl1"
-            TitleAlignment="Center"
-            TitleContent="Title Content"
-            TitleVisibility="Visible">
+        <dxdash:DashboardControl x:Name="dashboardControl1" TitleAlignment="Center" TitleContent="Title Content" TitleVisibility="Visible">
             <dxdash:DashboardControl.TitleContentTemplate>
                 <DataTemplate>
                     <ToggleButton Content="{Binding}" />
@@ -141,4 +132,4 @@
         </dxdash:DashboardControl>
     </Grid>
 
-</Window>
+</dx:ThemedWindow>

@@ -6,7 +6,7 @@ namespace WpfDashboardCustomCaptionMenu
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : DevExpress.Xpf.Core.ThemedWindow
     {
         public MainWindow()
         {
