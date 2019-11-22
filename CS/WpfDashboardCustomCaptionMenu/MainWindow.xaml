@@ -19,6 +19,11 @@
             <dxdash:DashboardControl.TitleCustomizationsTemplate>
                 <DataTemplate>
                     <ItemsControl>
+                        <dxb:BarSubItem AllowGlyphTheming="True" Content="My Title Item" dxb:CollectionAction.ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_ExportToPopupMenu}">
+                            <dxb:BarButtonItem Content="Item1" />
+                            <dxb:BarButtonItem Content="Item2" />
+                            <dxb:BarButtonItem Content="Item3" />
+                        </dxb:BarSubItem>
                         <dxb:InsertAction ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_Toolbar}" Index="0">
                             <dxb:InsertAction.Element>
                                 <dxb:BarSubItem AllowGlyphTheming="True" Content="My Title Dropdown">

@@ -15,11 +15,20 @@
     Title="MainWindow">
 
     <Grid>
-        <dxdash:DashboardControl
-            x:Name="dashboardControl1">
+        <dxdash:DashboardControl x:Name="dashboardControl1" TitleAlignment="Center" TitleContent="Title Content" TitleVisibility="Visible">
+            <dxdash:DashboardControl.TitleContentTemplate>
+                <DataTemplate>
+                    <ToggleButton Content="{Binding}" />
+                </DataTemplate>
+            </dxdash:DashboardControl.TitleContentTemplate>
             <dxdash:DashboardControl.TitleCustomizationsTemplate>
                 <DataTemplate>
                     <ItemsControl>
+                        <dxb:BarSubItem AllowGlyphTheming="True" Content="My Title Item" dxb:CollectionAction.ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_ExportToPopupMenu}">
+                            <dxb:BarButtonItem Content="Item1" />
+                            <dxb:BarButtonItem Content="Item2" />
+                            <dxb:BarButtonItem Content="Item3" />
+                        </dxb:BarSubItem>
                         <dxb:InsertAction ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardTitle_Toolbar}" Index="0">
                             <dxb:InsertAction.Element>
                                 <dxb:BarSubItem AllowGlyphTheming="True" Content="My Title Dropdown">
@@ -32,36 +41,6 @@
                     </ItemsControl>
                 </DataTemplate>
             </dxdash:DashboardControl.TitleCustomizationsTemplate>
-            <dxdash:DashboardControl.ItemGroupStyle>
-                <Style TargetType="{x:Type dxdash:DashboardLayoutGroup}">
-                    <Setter Property="CaptionCustomizationsTemplate">
-                        <Setter.Value>
-                            <DataTemplate>
-                                <ItemsControl>
-                                    <dxb:InsertAction ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardItemCaption_Toolbar}">
-                                        <dxb:InsertAction.Element>
-                                            <dxb:BarCheckItem AllowGlyphTheming="True" Content="My Check Button" />
-                                        </dxb:InsertAction.Element>
-                                    </dxb:InsertAction>
-                                </ItemsControl>
-                            </DataTemplate>
-                        </Setter.Value>
-                    </Setter>
-                    <Setter Property="ContextMenuCustomizationsTemplate">
-                        <Setter.Value>
-                            <DataTemplate>
-                                <ItemsControl>
-                                    <dxb:InsertAction ContainerName="{x:Static dxdasht:DefaultBarItemNames.DashboardItemCaption_ContextMenu}">
-                                        <dxb:InsertAction.Element>
-                                            <dxb:BarButtonItem AllowGlyphTheming="True" Content="My GroupItem Context Menu" />
-                                        </dxb:InsertAction.Element>
-                                    </dxb:InsertAction>
-                                </ItemsControl>
-                            </DataTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </dxdash:DashboardControl.ItemGroupStyle>
             <dxdash:DashboardControl.DashboardItemStyle>
                 <Style TargetType="{x:Type dxdash:DashboardLayoutItem}">
                     <Setter Property="CaptionCustomizationsTemplate">
