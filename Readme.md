@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/WpfDashboardCustomCaptionMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardCustomCaptionMenu/MainWindow.xaml))
+<!-- default file list end -->
 # How to Customize the Item's Caption and Context Menu
 
 This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
