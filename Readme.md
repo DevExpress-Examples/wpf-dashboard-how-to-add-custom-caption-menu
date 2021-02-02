@@ -5,8 +5,7 @@
 <!-- default file list end -->
 # How to Customize the Item's Caption and Context Menu
 
-This example demonstrates how to apply the **CaptionCustomizationsTemplate** and **ContextMenuCustomizationsTemplate** templates to customize the caption toolbar and context menu.
-
+This example demonstrates how to apply the [CaptionCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardLayoutItem.CaptionCustomizationsTemplate) and [ContextMenuCustomizationsTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.ContextMenuCustomizationsTemplate) templates to customize the caption toolbar and context menu.
 
 ![screenshot](images/wpf-dashboard-how-to-add-custom-caption-menu.png)
 
@@ -25,3 +24,7 @@ In a dashboard item's custom style, the [DashboardLayoutItem.CaptionCustomizatio
 In a group item's custom style, set the  [DashboardGroupItem.CaptionCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.CaptionCustomizationsTemplate) and  [DashboardGroupItem.ContextMenuCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.ContextMenuCustomizationsTemplate) properties, respectively.
 
 The data template in a custom style uses the [InsertAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.InsertAction) class to insert a button or a drop-down menu. The **InsertAction.Index** property specifies a position to insert.
+
+## Documentation
+
+- [WPF Viewer - Customization](https://docs.devexpress.com/Dashboard/401789/wpf-viewer/customization)
