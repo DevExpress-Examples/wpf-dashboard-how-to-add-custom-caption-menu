@@ -3,16 +3,18 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830545)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MainWindow.xaml](./CS/WpfDashboardCustomCaptionMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardCustomCaptionMenu/MainWindow.xaml))
-<!-- default file list end -->
 # Dashboard for WPF - How to Customize the Item's Caption and Context Menu
 
 This example demonstrates how to apply the [CaptionCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardLayoutItem.CaptionCustomizationsTemplate) and [ContextMenuCustomizationsTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.ContextMenuCustomizationsTemplate) templates to customize the caption toolbar and context menu in the WPF Dashboard control.
 
 ![screenshot](images/wpf-dashboard-how-to-add-custom-caption-menu.png)
+
+<!-- default file list -->
+## Files to look at
+
+* [MainWindow.xaml](./CS/WpfDashboardCustomCaptionMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardCustomCaptionMenu/MainWindow.xaml))
+<!-- default file list end -->
 
 The following properties are used:
 - [DashboardControl.TitleContent](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContent) to specify a title text;
