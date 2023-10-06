@@ -10,12 +10,12 @@ Namespace WpfDashboardCustomCaptionMenu
         Inherits DevExpress.Xpf.Core.ThemedWindow
 
         Public Sub New()
-            InitializeComponent()
-            Dim dashboard As Dashboard = New Dashboard()
-            Dim group As DashboardItemGroup = New DashboardItemGroup()
+            Me.InitializeComponent()
+            Dim dashboard As DevExpress.DashboardCommon.Dashboard = New DevExpress.DashboardCommon.Dashboard()
+            Dim group As DevExpress.DashboardCommon.DashboardItemGroup = New DevExpress.DashboardCommon.DashboardItemGroup()
             dashboard.Groups.Add(group)
-            dashboard.Items.AddRange(New GridDashboardItem() With {.Group = group}, New ChartDashboardItem() With {.Group = group}, New TreemapDashboardItem())
-            dashboardControl1.Dashboard = dashboard
+            dashboard.Items.AddRange(New DevExpress.DashboardCommon.GridDashboardItem() With {.Group = group}, New DevExpress.DashboardCommon.ChartDashboardItem() With {.Group = group}, New DevExpress.DashboardCommon.TreemapDashboardItem())
+            Me.dashboardControl1.Dashboard = dashboard
         End Sub
     End Class
 End Namespace
