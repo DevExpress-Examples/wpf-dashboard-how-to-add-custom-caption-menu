@@ -10,12 +10,6 @@ This example demonstrates how to apply the [CaptionCustomizationsTemplate](https
 
 ![screenshot](images/wpf-dashboard-how-to-add-custom-caption-menu.png)
 
-<!-- default file list -->
-## Files to look at
-
-* [MainWindow.xaml](./CS/WpfDashboardCustomCaptionMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardCustomCaptionMenu/MainWindow.xaml))
-<!-- default file list end -->
-
 The following properties are used:
 - [DashboardControl.TitleContent](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContent) to specify a title text;
 - [DashboardControl.TitleContentTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.TitleContentTemplate) to specify a data template to display a dashboard title, except command buttons;
@@ -31,6 +25,10 @@ In a dashboard item's custom style, the [DashboardLayoutItem.CaptionCustomizatio
 In a group item's custom style, set the  [DashboardGroupItem.CaptionCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.CaptionCustomizationsTemplate) and  [DashboardGroupItem.ContextMenuCustomizationsTemplate](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardGroupItem.ContextMenuCustomizationsTemplate) properties, respectively.
 
 The data template in a custom style uses the [InsertAction](https://docs.devexpress.com/WPF/DevExpress.Xpf.Bars.InsertAction) class to insert a button or a drop-down menu. The **InsertAction.Index** property specifies a position to insert.
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/WpfDashboardCustomCaptionMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfDashboardCustomCaptionMenu/MainWindow.xaml))
 
 ## Documentation
 
