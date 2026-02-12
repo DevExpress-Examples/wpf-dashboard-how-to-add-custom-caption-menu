@@ -35,7 +35,7 @@ The data template in a custom style uses the [InsertAction](https://docs.devexpr
 
 - [WPF Viewer - Customization](https://docs.devexpress.com/Dashboard/401789/wpf-viewer/customization)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-dashboard-how-to-add-custom-caption-menu&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-dashboard-how-to-add-custom-caption-menu&~~~was_helpful=no)
 
